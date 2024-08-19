@@ -22,7 +22,6 @@ const initialState = {
 };
 
 const todoReducer = (state = initialState, action) => {
-  console.log(action);
   // aksiyonun type 'ına göre gerekli güncellemeyi yap.
 
   switch (action.type) {
